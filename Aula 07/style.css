@@ -1,0 +1,19 @@
+div{
+   background: greenyellow;
+   width: 200px;
+   height: 100px;
+   /*padding: 30px 50px 80px 10px;*/
+   padding-left: 50px;
+   padding-top: 40px;
+   border: 15px solid red;
+   margin: 35px;
+}
+
+p{
+   background: blueviolet;
+   width: 100px;
+   height: 80px;
+   padding: 40px;
+   border: 30px solid brown;
+   margin: 75px;  
+}

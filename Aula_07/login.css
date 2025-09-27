@@ -1,0 +1,11 @@
+form {
+  width: 200px;
+  background-color: aqua;
+  padding: 10px;
+  margin: auto;
+  border: 1px black;
+}
+
+* {
+   box-sizing: border-box;
+}

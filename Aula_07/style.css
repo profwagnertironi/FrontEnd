@@ -1,0 +1,20 @@
+div, p{
+   box-sizing: border-box;
+}
+
+div{
+   background: plum;
+   width: 200px;
+   height: 50px;
+   /*border: 20px solid blue;
+   margin: 80px;*/
+}
+
+p{
+   background: yellowgreen;
+   width: 200px;
+   height: 50px;
+   padding: 0 50px;
+   /*border: 10px solid brown;
+   margin: 30px;*/
+}

@@ -1,0 +1,19 @@
+p{
+   color: fuchsia;
+}
+
+h1, h2 {
+   border: black solid;
+}
+
+.itemlista{
+   font-size: 20px;
+}
+
+#div_inicial{
+   font-style: italic;
+}
+
+#div_final{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

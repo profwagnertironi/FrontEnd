@@ -1,0 +1,21 @@
+.main{
+   display: -webkit-flex;
+   display: flex;
+   width: 500px;
+   height: 500px;
+   background: #EFEFEF;
+   
+   -webkit-flex-flow: column;
+   flex-flow: column;
+}
+
+.main div{
+   background: #CCC;
+   margin-right: 10px;
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+}
+
+.main div.primeirodiv{-webkit-order:2;}
+.main div.segundodiv{-webkit-order:3;}
+.main div.terceirodiv{-webkit-order:3;}

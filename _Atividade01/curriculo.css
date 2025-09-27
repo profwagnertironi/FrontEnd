@@ -1,0 +1,16 @@
+div{
+   color: blueviolet;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+#setor1{
+    color: chartreuse;
+}
+
+.tipo_lista{
+   background-color: coral;
+}
+
+li{
+   background-color: darkgreen;
+}

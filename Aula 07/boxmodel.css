@@ -1,0 +1,16 @@
+#elemento1{
+   background: #ddd;
+   width: 250px;
+   height: 50px;
+}
+
+#elemento2{
+   background: #ddd;
+   width: 250px;
+   height: 50px;
+   padding: 0 50px;
+}
+
+#elemento1, #elemento2{
+   box-sizing: border-box;
+}

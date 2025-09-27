@@ -1,0 +1,29 @@
+.header{
+   grid-area: header;
+   border: solid 1px black;
+}
+
+.sidenav{
+   grid-area: sidenav;
+   border: solid 1px black;
+}
+
+.content{
+   grid-area: content;
+   border: solid 1px black;
+}
+
+.footer{
+   grid-area: footer;
+   border: solid 1px black;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: 30% 60%;
+   grid-template-rows: 30px 80px 20px;
+   grid-column: 10px;
+   grid-row: 5px;
+   grid-gap: 20px 30px;
+   grid-template-areas: "header header" "sidenav content" "footer footer";     
+}

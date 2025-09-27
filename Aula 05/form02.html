@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formularios 02</title>
+</head>
+<body>
+   <form action="">
+      Selecione uma cor: 
+      <input type="color" value="##AABBCC"> <br/> <br/>  
+      Infome o seu e-mail:
+      <input type="email" required autocomplete="off"> <br/> <br/>
+      Ano de Nascimento:
+      <input type="number" min="1960" max="2024"> <br/> <br/>
+      Range:
+      <input type="range" step="2" min="2" max="10"> <br/> <br/>
+      Informa e hora:
+      <input type="time" required> <br/> <br/>
+      Informa o seu site:
+      <input type="url" required autofocus> <br/> <br/>
+
+      Selecione o estado:
+      <select name="estado">
+         <option value="MG">Minas Gerais</option>
+         <option value="RJ">Rio de Janeiro</option>
+         <option value="SP">São Paulo</option>
+      </select><br/><br/>
+
+      <textarea cols="50" rows="20" placeholder="Digite aqui a sua mensagem"></textarea>
+      <br/><br/>
+
+      <button formaction="" formmethod=""
+      value="Clique aqui" onclick="alert('Olá tudo bem?')">Clique!</button>
+
+      <input type="submit" value="Confirma">
+   </form>
+</body>
+</html>
